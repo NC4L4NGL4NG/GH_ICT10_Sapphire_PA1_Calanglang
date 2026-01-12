@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://pyscript.net/releases/2025.2.1/core.css">
+    <script type="module" src="https://pyscript.net/releases/2025.2.1/core.js"></script>
+    <title>Temperature Converter</title>
+</head>
+<body>
+    <h1>Fahrenheit to Celsius Converter</h1>
+
+    <p>Enter temperature in Fahrenheit:</p>
+    <input type="number" id="f-input" placeholder="e.g. 98.6">
+    
+    <button id="convert-btn" py-click="convert_temp">Convert</button>
+
+    <p id="output-area">
+        Result will appear here.
+    </p>
+
+    <script type="py" src="main.py"></script>
+</body>
+</html>
